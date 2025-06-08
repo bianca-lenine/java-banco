@@ -39,6 +39,11 @@ Para adicionar novas dependências, edite o arquivo `pom.xml` e adicione-as na s
 
 # DEV-WIP
 1. Criação de conta - Bianca Lenine
+1.1 - Numero da Conta
+      Nome do Cliente
+      Saldo
+      Limite de Credito
+      
 
 # Backlog
 - Saque e deposito 
