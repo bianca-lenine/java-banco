@@ -35,7 +35,18 @@ pom.xml
 
 Para adicionar novas dependências, edite o arquivo `pom.xml` e adicione-as na seção `<dependencies>`.
 
-## Ações do sistema: 
+# Tarefas a serem desenvolvidas
 
-- Criação de conta
-- Saque e depsito 
+# DEV-WIP
+1. Criação de conta - Bianca Lenine
+
+# Backlog
+- Saque e deposito 
+- Consulta de Saldo
+- Fechamento de Conta
+- Transferencia
+- Extrato bancário
+- Alteração de dados cadastrais
+- Pagamento de contas e boletos
+- Agendamento de pagamentos
+- Cartão de crédito/débito
