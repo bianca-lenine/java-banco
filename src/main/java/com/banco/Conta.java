@@ -11,6 +11,8 @@ public class Conta {
         this.nomeCliente = nomeCliente;
         this.saldo = saldo;
         this.limiteCredito = limiteCredito;
+        System.out.println("Bem vindo, " + this.nomeCliente);
+
     }
 
 }
