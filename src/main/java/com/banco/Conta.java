@@ -6,14 +6,14 @@ public class Conta {
     public int saldo;
     public int limiteCredito;
 
-    public Conta(int numero, String nomeCliente, int saldo, int limiteCredito) {
-        this.numero = numero;
+    public Conta(String nomeCliente, int saldo, int limiteCredito) {
+        this.numero = (int) (Math.random() * 90000) + 10000;
+        System.out.println("Numero da conta: " + this.numero);
+
         this.nomeCliente = nomeCliente;
-        this.saldo = saldo;
-        this.limiteCredito = limiteCredito;
         System.out.println("Bem vindo, " + this.nomeCliente);
 
+        this.saldo = saldo;
+        this.limiteCredito = limiteCredito;
     }
-
 }
-
