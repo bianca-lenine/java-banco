@@ -16,13 +16,17 @@ public class Main {
 
         int option = scanner.nextInt(); // TODO: validar se o usuário está informando uma opção válida.
 
-        // TODO: converter para estrutura SWITCH
-        
-        if (option == 1) {
-            System.out.println("Informe seu nome completo:");
-            String nomeCliente = scanner.nextLine(); 
-            Conta conta = new Conta(nomeCliente, 10, 5); 
-        } else 
-            System.out.println("Volte Sempre!");
+        if (option <= 5){
+            // TODO: converter para estrutura SWITCH
+            if (option == 1) {
+                System.out.println("Informe seu nome completo:");
+                String nomeCliente = scanner.nextLine(); 
+                Conta conta = new Conta(nomeCliente, 10, 5); 
+            } else 
+                System.out.println("Volte Sempre!");
+        }
+        else {
+            System.out.println("Informe uma opçao valida na proxima vez");
+        }
     }
 }
